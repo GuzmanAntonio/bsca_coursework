@@ -13,4 +13,11 @@ const pluralizer = (productsIn) =>{
 
 const pluralProducts = sevenProducts.map(product => product + "s")
 
-console.log(pluralProducts);
+//console.log(pluralProducts);
+
+const objectProducts = pluralProducts.map(product => {
+    const newProduct = {name: product}
+    return newProduct
+})
+
+console.log(objectProducts);
