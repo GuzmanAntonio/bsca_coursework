@@ -7,8 +7,7 @@ To Install:  Please Download or clone the repository.  Once downloaded please op
 
 How to Play: 
 
-1:  Press Start.
-2:  Manuever using the arrow keys. 
-3:  Avoid colliding with the bugs while attempting to reach the water. 
-4:  The bugs will KILL you!
-5:  Rack up points and try to beat your score. 
+1:  Manuever the Bug using the arrow keys. 
+2:  Avoid colliding with the bugs while attempting to reach the water. 
+3:  The char-boys will KILL you!
+4:  Rack up points and try to beat your score. 
