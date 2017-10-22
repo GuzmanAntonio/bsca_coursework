@@ -13,5 +13,17 @@ const freddy = new Monster("Fredrick Charles Freddy Krueger", ["Hopes", "Dreams"
 const it = new Monster("Pennywise", ["children", "cotton candy"], "https://i.ytimg.com/vi/OAclBMuMSvo/maxresdefault.jpg")
 const chucky = new Monster("Chucky", ["toys"], "https://www.destructoid.com//ul/464890-cult-of-chucky-finger.jpg")
 const mike = new Monster("Michael Meyers", ["cupcakes", "waffles"], "https://vignette2.wikia.nocookie.net/villains/images/e/e3/MMH.jpg/revision/latest?cb=20150810215746")
-console.log(it)
-console.log(mike)
+
+monsters.push(jason, freddy, it, chucky, mike)
+
+//console.log(monsters)
+
+const monsterVue = {
+    el: "#monster-app",
+    data: {
+        title: "Monster Mash",
+        monsters: monsters
+    },
+}
+
+new Vue(monsterVue)
